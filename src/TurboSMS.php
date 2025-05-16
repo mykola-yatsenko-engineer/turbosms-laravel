@@ -186,7 +186,7 @@ class TurboSMS implements TurboSMSInterface
             return [
                 'success' => false,
                 'result' => null,
-                'info' => $error,
+                'info' => $error
             ];
         }
 
@@ -196,6 +196,7 @@ class TurboSMS implements TurboSMSInterface
             'success' => true,
             'result' => $answer['response_result'],
             'info' => $info,
+            'response_status' => $answer['response_status']
         ];
     }
 
