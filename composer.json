@@ -1,8 +1,7 @@
 {
-    "name": "daaner/turbosms",
-    "description": "TurboSMS for Laravel 7+",
+    "name": "mykola-yatsenko-engineer/turbo-sms-laravel",
+    "description": "TurboSMS for Laravel",
     "keywords": [
-        "daaner",
         "turbosms",
         "sms",
         "laravel-sms"
@@ -12,6 +11,10 @@
         {
             "name": "Daan",
             "email": "daan@ukr.net"
+        },
+        {
+            "name": "Mykola Yatsenko",
+            "email": "mcmc4519@gmail.com"
         }
     ],
     "require": {
